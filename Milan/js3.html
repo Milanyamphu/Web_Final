@@ -1,0 +1,94 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" media="(min-width: 640px)" href="all_pc.css">
+<link rel="stylesheet" media="(max-width: 640px)" href="all_smp.css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<link href="flexslider.css" rel="stylesheet">
+<script src="script/jquery.flexslider-min.js"></script>
+<script src="script/d.js"></script>
+<script>
+  $(function(){
+    $('.flexslider').flexslider({
+      animation: "slide"
+    });
+  });
+</script>
+
+</head>
+
+<body style="background-image:url(img/back.jpg);">
+<div id="pagebody" style="height: 1700px;">
+	<header>
+	<div class="flexslider" style="border-color:rgb(174, 0, 255);;">
+      <ul class="slides">
+        <li><img src="img/1.jpg" /></li>
+        <li><img src="img/2.jpg" /></li>
+        <li><img src="img/3.jpg" /></li>
+        <li><img src="img/4.jpg" /></li>
+        <li><img src="img/5.jpg" /></li>
+        <li><img src="img/6.jpg" /></li>
+        <li><img src="img/7.jpg" /></li>
+        <li><img src="img/8.jpg" /></li>
+      </ul>
+    </div>
+
+    <div class="topnav">
+    	<div class="topnavde"><a href="index.html"><b>Top page</b></a></div>
+			<div class="topnavde"><a href="js1.html"><b>Score</b></a></div>
+			<div class="topnavde"><a href="js2.html"><b>Shop</b></a></div>
+			<div class="topnavde"><a href="js3.html"><b>JS World</b></a></div>
+			<div class="topnavde"><a href="js4.html"><b>Form</b></a></div>
+			<div class="topnavde"><a href="js5.html"><b>Map</b></a></div>
+			<div class="topnavde"><a href="js6.html"><b>Anima</b></a></div>
+    </div>
+    
+	</header>
+  <div class="container" style="height: 1080px;">
+    <h1>Welcome to the world of Java World</h1><br/>
+    <div id="entry">
+        <form action="/action_page.php" onsubmit="return false;">
+            <label for="text">1. Please input text:</label><br>
+            <input type="text" id="text" name="text">
+            <input type="submit" value="click the button" onclick="displaytext()"><br/><br/>
+            <label for="comments">2. Any comments:</label><br>
+              <textarea name="" id="comments">
+              </textarea>
+              <input type="submit" value="click the button" onclick="displaycomments()"><br/><br/>
+          </form>
+          <form id="sexForm">
+            <label for="fname">3. Please input your gender:</label><br>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="sex" value="Male">
+                <br>
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="sex" value="Female">
+                <br>
+                <input type="button" value="Submit" onclick="displaySex()">
+            </form>
+            <p><center>4. Mouseover effect</center></p>
+            <img src ="img/sleep.jpg" name="sleeping boy" width="300px"
+        onmouseover="this.src='img/wake up.jpg'"
+        onmouseout="this.src='img/sleep.jpg'">
+    
+        
+        <p><center>5. Change Preview</center></p>
+        <div>
+          <button onclick="change('img/earth.jpg')">Earth</button>
+          <button onclick="change('img/moon.jpg')"><Moon> moon</button>
+          <button onclick="change('img/sun.jpg')">Sun</button>
+      </div>
+      <br/>
+        <div>
+            <img src="img/moon.jpg" id="mainImage" alt="Main Image" width="500px">
+        </div>
+    
+    </div>
+        </div>
+	
+    <footer>Final Project by Rai Milan.</footer>
+  </div>
+  </body>
+  </html>

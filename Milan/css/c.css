@@ -1,0 +1,58 @@
+/* Styling for the main heading */
+h1{
+    text-align: center;
+    background-color: #270076;
+    border: outset black;
+    color: bisque;
+}
+
+/* Styling for the subheading */
+h2{
+    text-align: center;
+    color:white;
+    font-family:cursive;
+    background-size: auto;
+    background-color: rgb(44, 0, 0);
+    border-color: rgb(30, 0, 147);
+    width: 300px;
+}
+
+/*Styling for the small images*/
+img{
+  border-style: solid;
+  border-width: 1px;
+}
+  
+/* Styling for the container */
+.contain{
+  display: grid;
+  grid-template-areas: 'left-column right-column';
+  width: 860px;
+  height: 450px;
+  margin: 100px auto;  
+  column-gap: 150px;
+  background-image: url("img/apple.jpg");
+}
+
+/* Styling for the color selection area */
+#select{
+    background-color: #3c0000;
+    color:rgb(255, 255, 255);
+    border: 3px solid;
+
+  
+}
+#menu{
+    text-align:center;
+    background-color: #ffffff;
+    border: 5px solid;
+    border-color: #4e0000;
+    border-width: medium;
+    width: 280px;
+    height: 430px;
+}
+#showcontent {
+  text-align: left;
+  margin-left: 10px; /* Optional: Add some left margin for better appearance */
+}
+

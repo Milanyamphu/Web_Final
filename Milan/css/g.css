@@ -1,0 +1,11 @@
+h1{ color: rgb(255, 255, 255);
+            text-align: center;
+            background-color: rgb(18, 0, 108);
+            border: solid red;
+            border;
+        }
+
+		#mymap{
+		    width:700px;
+			height:460px;
+			}

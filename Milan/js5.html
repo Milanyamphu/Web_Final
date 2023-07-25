@@ -1,0 +1,75 @@
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" media="(min-width: 640px)" href="all_pc.css">
+  <link rel="stylesheet" media="(max-width: 640px)" href="all_smp.css">
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <link href="flexslider.css" rel="stylesheet">
+  <script src="script/jquery.flexslider-min.js"></script>
+  <script>
+    $(function(){
+      $('.flexslider').flexslider({
+        animation: "slide"
+      });
+    });
+  </script>
+
+<style>
+
+    h1 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        background-color: rgb(18, 0, 108);
+        border: solid red;
+    }
+
+    #mymap {
+        width: 965px;
+        height: 460px;
+    }
+</style>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script src ="script/g.js"></script>
+
+</head>
+
+<body style="background-image:url(img/back.jpg);">
+<div id="pagebody" style="height: 1200px;">
+    <header>
+        <div class="flexslider" style="border-color:#CFC;;">
+          <ul class="slides">
+            <li><img src="img/1.jpg" /></li>
+            <li><img src="img/2.jpg" /></li>
+            <li><img src="img/3.jpg" /></li>
+            <li><img src="img/4.jpg" /></li>
+            <li><img src="img/5.jpg" /></li>
+            <li><img src="img/6.jpg" /></li>
+            <li><img src="img/7.jpg" /></li>
+            <li><img src="img/8.jpg" /></li>
+          </ul>
+        </div>
+
+        <div class="topnav">
+            <div class="topnavde"><a href="index.html"><b>Top page</b></a></div>
+            <div class="topnavde"><a href="js1.html"><b>Score</b></a></div>
+            <div class="topnavde"><a href="js2.html"><b>Shop</b></a></div>
+            <div class="topnavde"><a href="js3.html"><b>JS World</b></a></div>
+            <div class="topnavde"><a href="js4.html"><b>Form</b></a></div>
+            <div class="topnavde"><a href="js5.html"><b>Map</b></a></div>
+            <div class="topnavde"><a href="js6.html"><b>Anima</b></a></div>
+        </div>
+    </header>
+    <div class="container" style="height: 590px;">
+      <div class="contain">
+        <h1> Dharan City </h1>
+        <div id="mymap">
+          </div>
+      </div>
+    </div>
+	<footer>Final Project by Rai Milan.</footer>
+</div>
+</body>
+</html>

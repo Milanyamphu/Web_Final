@@ -1,0 +1,86 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" media="(min-width: 640px)" href="all_pc.css">
+<link rel="stylesheet" media="(max-width: 640px)" href="all_smp.css">
+<link rel="stylesheet" href="css/c.css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<link href="flexslider.css" rel="stylesheet">
+<script src="script/jquery.flexslider-min.js"></script>
+<script>
+  $(function(){
+    $('.flexslider').flexslider({
+      animation: "slide"
+    });
+  });
+</script>
+<script>
+	function changeContent2(){
+			document.getElementById("showcontent2").innerHTML=txtall2;
+			}
+	function changebackContent2(){
+			document.getElementById("showcontent2").innerHTML=txtpart2;
+	}
+	var txtall2 = 'My major concerntration is Web System Development. I enjoyed alot while learning coding. <input type="button"value="◀" onclick="changebackContent2();">';
+	var txtpart2='My major concerntration... <input type="button"value="▶" onclick="changeContent2();">';
+</script>
+<script>
+		function changeContent(){
+			document.getElementById("showcontent").innerHTML=txtall;
+			}
+	function changebackContent(){
+			document.getElementById("showcontent").innerHTML=txtpart;
+	}
+	var txtall = 'My programming language<br/>Javascript<br/>Html<br/>CSS<br/>Adobe photoshop<br/>MsOffice</br>Wondershare <input type="button"value="▲" onclick="changebackContent();">';
+	var txtpart='My programming language<br/><input type="button"value="▼" onclick="changeContent();">';
+	</script>
+
+
+</head>
+
+<body style="background-image:url(img/back.jpg);">
+<div id="pagebody" style="height: 1120px;">
+	<header>
+	<div class="flexslider" style="border-color:rgb(174, 0, 255);;">
+      <ul class="slides">
+        <li><img src="img/1.jpg" /></li>
+        <li><img src="img/2.jpg" /></li>
+        <li><img src="img/3.jpg" /></li>
+        <li><img src="img/4.jpg" /></li>
+        <li><img src="img/5.jpg" /></li>
+        <li><img src="img/6.jpg" /></li>
+        <li><img src="img/7.jpg" /></li>
+        <li><img src="img/8.jpg" /></li>
+      </ul>
+    </div>
+
+    <div class="topnav">
+    	<div class="topnavde"><a href="index.html"><b>Top page</b></a></div>
+			<div class="topnavde"><a href="js1.html"><b>Score</b></a></div>
+			<div class="topnavde"><a href="js2.html"><b>Shop</b></a></div>
+			<div class="topnavde"><a href="js3.html"><b>JS World</b></a></div>
+			<div class="topnavde"><a href="js4.html"><b>Form</b></a></div>
+			<div class="topnavde"><a href="js5.html"><b>Map</b></a></div>
+			<div class="topnavde"><a href="js6.html"><b>Anima</b></a></div>
+    </div>
+    
+	</header>
+  <div class="container" style="height: 500px;">
+<h1>Welcome to my Page</h1>
+<p>My name is Rai Milan. I am a student of KCGI. I am in second semester. This page is created for final assignment. It is compilation of every assignment.
+	<br/>
+
+<p id="showcontent2">My major concerntration... <input type="button"value="▶"id="Details"onclick="changeContent2();">
+</p>
+
+<p id="showcontent">My programming language<br/><input type="button"value="▼"id="Details"onclick="changeContent();">
+</p>
+</div>
+		
+
+<footer>Final Project by Rai Milan.</footer>
+</div>
+</body>
+</html>

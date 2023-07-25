@@ -1,0 +1,129 @@
+body{
+	text-align:center;
+}
+
+#pagebody{
+	background-image: url("img/page.jpg");
+	width:1000px;
+	height:1180px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+}
+
+header{
+	width:965px;
+	height:500px;
+	margin:10px;
+	padding:5px;
+	border:1px solid rgb(0, 255, 242);
+	background-color: rgb(247, 255, 172);
+}
+
+
+.topnav{
+	width:99%;
+	height:9%;
+	border:2px solid rgb(37, 0, 85);
+	border-radius: 10px;
+	background-image: url("img/nav.jpg");
+}
+
+.topnavde{
+	display: inline-block;
+	width:95px;
+	height:18px;
+	margin:5px;
+	padding:5px;
+	border:2px solid rgb(0, 30, 255);
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+}
+
+.topnavde a:hover{
+	width:90px;
+	height: 22px;
+	background-color:rgb(41, 0, 6);
+}
+
+p{
+	text-align: left;
+}
+
+.container{
+	width:965px;
+	height:600px;
+	margin:10px;
+	padding:5px;
+	border:2px solid pink;
+
+	background-color: rgb(247, 255, 172);
+	}
+
+aside{
+	width:200px;
+	height:460px;
+	margin:10px;
+	padding:10px;
+	border:2px solid pink;
+	border-radius: 10px;
+	background-color: rgb(255, 204, 204);
+	float:left;
+}
+
+A{text-decoration:none;}
+
+
+
+article{
+	width:580px;
+	height:460px;
+	margin:10px;
+	padding:10px;
+	border:2px solid pink;
+	border-radius: 10px;
+	background-color: rgb(255, 0, 47);
+	float:right;
+}
+
+.readmore{
+	display: block;
+}
+
+
+footer{
+	position:relative;
+	width:980px;
+	height:50px;
+	margin:10px;
+	border:2px solid pink;
+	border-radius: 10px;
+	background-color: #CFC;;
+	clear: both;
+	
+	}
+
+
+#submenu{
+	width:200px;
+	height:390px;
+	margin:10px;
+	padding:10px;
+	border:2px solid pink;
+	border-radius: 10px;
+	float:left;
+	background-color:lightgreen;	
+}
+
+A{text-decoration:none;}
+
+#content{
+	width:580px;
+	height:350px;
+	margin:10px;
+	padding:10px;
+	border:2px solid pink;
+	border-radius: 10px;
+	float:right;
+	background-color:pink;	
+}
